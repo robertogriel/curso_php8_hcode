@@ -1,0 +1,21 @@
+Tipos de Dados do php8
+
+TIPOS ESCALARES
+- bool (True or False)
+- int (Número inteiro)
+- float (Números com casas decimais)
+- string (Textos)
+
+TIPOS COMPOSTOS
+- array 
+- object
+- callable
+- iterable
+
+TIPOS ESPECIAIS
+- resource
+- NULL
+
+PSEUDO TIPOS
+- mixed
+- void
