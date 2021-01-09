@@ -1,0 +1,12 @@
+Instalando NGINX:
+$ sudo apt-get install php8.0-fpm nginx -y
+
+Parar o serviço do Apache2:
+$ sudo service apache2 stop
+
+Editar o arquivo /ect/nxings/sites-avaliable/default
+- Linha 44 adicionar 'index.php' após o 'index'
+- Remover comentários da linha 56, 57, 68 (e atualizar versão para 8.0), 63
+
+Reiniciar o servidor do nginx:
+$ sudo service nginx restart
