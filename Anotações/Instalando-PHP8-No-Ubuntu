@@ -1,0 +1,18 @@
+Executar o update do APT:
+$ sudo apt update
+
+Instalar os softwares necessários:
+$ sudo apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
+
+Adicionando o repositório do PHP ao Ubuntu:
+$ sudo add-apt-repository ppa:ondrej/php
+
+Repetir o update
+
+Instalando extensões básicas:
+$ sudo apt install php8.0-{mbstring,mysql,cli,common,curl,opcache,xml}
+
+Dar permissões na pasta var/www/html
+$ cd /var/www/
+$ sudo chmod -R 777 html
+
